@@ -26,10 +26,9 @@ Nessa quinta fase desenvolvemos um assistente conversacional, usando a estrutura
 
 Criamos uma interface interativa com React Native, disponibilizando o agente  de forma responsiva atráves de um app, mas também podendo ser utilizado via web.
 
-## Links Videos:
-### Parte 1 e Parte 2: 
-### Ir Além: https://youtu.be/1NBNX88V1-0
-### App: https://youtube.com/shorts/XTpQ_kAq_G8
+### Links Videos:
+#### Parte 1 e Parte 2: 
+
 
 
 # Parte 1
@@ -58,7 +57,7 @@ Estruturamos o backend com Flask, criando uma porta de comunicação com o servi
 
 Em seguida criamos o app, que consome o serviço do backend para uma interface amigável e simples. Também incluimos icónes, tratamentos de erros, logs e alertas para uma melhor experiência do usuário.
 
-<img src="/assets/cardio_cel.png" widht="150">
+<img src="/assets/cardio_cel.png" widht="100">
 
 <img src="/assets/cardio_web.png" widht="150">
 
@@ -95,12 +94,11 @@ npx expo start
 
 O app detecta o IP do servidor do Expo (`exp://...`) e usa a mesma máquina na porta `5000`, então em **celular físico não é preciso configurar nada**. Se precisar sobrescrever manualmente (ex.: backend em outra máquina), crie um `.env` na raiz do app:
 
-```
 
 >  **Dica de firewall**: se o celular não conectar, libere a porta 5000 no Windows:
 > ```powershell
 > netsh advfirewall firewall add rule name="CardioAssist 5000" dir=in action=allow protocol=TCP localport=5000
-> ```
+
 
 ### Estrutura
 
