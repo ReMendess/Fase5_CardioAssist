@@ -26,10 +26,8 @@ Nessa quinta fase desenvolvemos um assistente conversacional, usando a estrutura
 
 Criamos uma interface interativa com React Native, disponibilizando o agente  de forma responsiva atráves de um app, mas também podendo ser utilizado via web.
 
-### Links Videos:
-#### Parte 1 e Parte 2: 
-
-
+### Link Videos:
+#### Parte 1 e Parte 2: https://youtu.be/t3lXi1qCfM4
 
 # Parte 1
 
