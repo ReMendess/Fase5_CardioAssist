@@ -57,7 +57,7 @@ Estruturamos o backend com Flask, criando uma porta de comunicação com o servi
 
 Em seguida criamos o app, que consome o serviço do backend para uma interface amigável e simples. Também incluimos icónes, tratamentos de erros, logs e alertas para uma melhor experiência do usuário.
 
-<img src="/assets/cardio_cel.png" widht="100">
+<img src="/assets/cardio_cel.png" widht="60">
 
 <img src="/assets/cardio_web.png" widht="150">
 
